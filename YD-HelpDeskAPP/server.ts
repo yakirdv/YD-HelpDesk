@@ -1,7 +1,7 @@
 import express from "express";
 const app = express();
 const port: number = 3001;
-
+app.use(express.json());
 app.use(express.static("public"));
 
 import router from "./routes/routes";
