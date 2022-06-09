@@ -7,6 +7,11 @@ export function newID(){
 
 }
 
+export function test(req, res){
+
+    res.send(req);
+}
+
 export function signUp(req:{input_userName,
     input_password,
     input_firstName,
